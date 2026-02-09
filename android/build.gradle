@@ -22,7 +22,8 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 29
+    namespace 'co.modestnerd.wa_me'
+    compileSdkVersion 34
 
     defaultConfig {
         minSdkVersion 16
